@@ -70,7 +70,9 @@ function draw() {
     }
 }
 
-function mousePressed(){
-   saveCanvas('bitmona', 'jpg');
+function keyPressed(){
+  if(key == 's'){
+    saveCanvas('bitmona', 'jpg');
+  } 
 }
  

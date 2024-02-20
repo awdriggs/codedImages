@@ -17,7 +17,7 @@ function setup() {
   //set up some variables
   stripDisplayWidth = calcWidth / numStrips 
   // noLoop();
-  frameRate(1);
+  frameRate(5);
 }
 
 function draw() {
@@ -60,6 +60,8 @@ function draw() {
 function keyPressed(){
   if(key == 's'){
     saveCanvas('moontrip', 'jpg');
+  } else if(key == 'g'){
+    saveGif('moon.gif', 10);
   }
 }
 

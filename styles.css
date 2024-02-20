@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 body {
-  background-color: #BDD9BF;
   color: #2E4052;
+
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+ 
+#homewrap {
+  margin-left: 100px;
+}
+ 
+header {
+  h1, p {
+    margin: 0;
+  }
+}
+
+.project-header {
+  margin-left: 100px;
+  margin-bottom: 20px;
 }
 
 a, a:visited {
@@ -10,4 +32,27 @@ a, a:visited {
 
 a:hover, a:visited:hover {
   color: #50723C;
+}
+
+.cards {
+  margin-top: 100px;
+
+  .card {
+    display: inline-block;
+    margin-right: 20px;
+    width: 200px;
+     
+    img {
+      width: 100%;
+    }
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 20px; 
+  display: block;
+  width: 100%;
+  text-align: center;
 }
