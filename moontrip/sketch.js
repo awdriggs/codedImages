@@ -9,7 +9,7 @@ function preload() {
 
 function setup() {
   //make the max width the width of the window, make the height relative to the images height with some padding
-  calcWidth = windowWidth - 40;
+  calcWidth = windowWidth - 200;
   calcHeight = round(calcWidth / moon.width * moon.height);
   createCanvas(calcWidth, calcHeight + 80)// + 200)
   // print(width, height) //test canvas size
